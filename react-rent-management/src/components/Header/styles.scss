@@ -1,0 +1,17 @@
+.header {
+  position: fixed !important;
+  left: 0px;
+  top: 0px;
+  .space {
+    flex-grow: 1;
+  }
+  .link {
+    margin-left: 20px;
+    a {
+      color: white;
+      &:active, &:focus, &:visited {
+        color: white;
+      }
+    }
+  }
+}

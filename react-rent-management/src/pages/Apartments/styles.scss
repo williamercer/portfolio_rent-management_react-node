@@ -1,0 +1,35 @@
+.apartments-page {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 90px 0px 0px 0px;
+  overflow: scroll;
+
+  .page-column {
+    padding-right: 15px;
+  }
+
+  .control-bar {
+    padding-left: 20px;
+    .option-div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .apartment-card {
+    margin: 10px;
+    &.edited {
+      background-color: lightyellow;
+    }
+    .apartment-details {
+      height: 220px;
+    }
+    .apartment-owner, .created-at {
+      font-size: 12px;
+      color: gray;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "toptal-backend",
+  "version": "0.0.1",
+  "private": true,
+  "author": "William Mercer",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start-dev": "NODE_ENV=dev node ./bin/www",
+    "start-prod": "NODE_ENV=prod node ./bin/www",
+    "start-e2e": "NODE_ENV=e2e_test node ./bin/www",
+    "dev": "NODE_ENV=dev nodemon ./bin/www",
+    "lint": "eslint --fix .",
+    "test": "jest --verbose --silent",
+    "test-writing": "jest --coverage=false --watch"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/mail": "^7.2.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^6.0.1",
+    "json-spec": "file:lib/json-spec",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.3",
+    "yarn": "^1.22.4"
+  }
+}

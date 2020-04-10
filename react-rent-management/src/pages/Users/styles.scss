@@ -1,0 +1,31 @@
+.users-page {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 90px 0px 0px 0px;
+  overflow: scroll;
+
+  .users-content {
+    width: 900px;
+    margin: 0 auto 0 auto;
+
+    .users-header {
+      padding-bottom: 10px;
+    }
+    .user-card {
+      margin: 10px;
+      &.edited {
+        background-color: lightyellow;
+      }
+      &.self {
+        background-color: rgb(228, 246, 250) !important;
+      }
+      .created-at {
+        font-size: 12px;
+        color: gray;
+      }
+    }
+  }
+}

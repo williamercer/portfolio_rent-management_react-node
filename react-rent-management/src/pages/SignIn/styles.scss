@@ -1,0 +1,50 @@
+.signIn-page {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  .content-div {
+    width: 100%;
+    max-width: 700px;
+    padding: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .paper-div {
+      padding: 40px;
+      .button-div {
+        padding-top: 15px;
+        .right-button {
+          float: right;
+        }
+      }
+      .separator-div {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: gray;
+        div {
+          margin: 10px;
+          flex: 1;
+          background: lightgray;
+          height: 1px;
+        }
+      }
+      .social-div {
+        text-align: center;
+      }
+    }
+  }
+  .signUp-link {
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
