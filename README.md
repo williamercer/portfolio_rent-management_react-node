@@ -1,4 +1,4 @@
-# Code Test
+# Renting App
 
-- `react-rent-management` - Rentting Management Frontend built in React.js
-- `react-management-api` - Backend Server for Rentting Management built in Node.js/Express
+- `react-rent-management` - Renting Management Frontend built in React.js
+- `react-management-api` - Backend Server for Renting Management built in Node.js/Express
